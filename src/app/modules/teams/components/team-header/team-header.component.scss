@@ -1,0 +1,43 @@
+.team-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  h3 {
+    padding-top: 30px;
+  }
+
+}
+
+.social-media {
+  background-color: #f7f0f0;
+  height: 50px;
+
+  a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  .link {
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+}
+
+.team-links {
+  width: 35%;
+  margin: 0 auto;
+
+  .selected {
+    color: white;
+    background-color:  #42545C;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: inline-block;
+    margin-left: 3px;
+  }
+}

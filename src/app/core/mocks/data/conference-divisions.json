@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "American Football Conference",
+        "abbr": "AFC",
+        "division_list": [
+            {
+                "id": 1,
+                "name": "East"
+            },
+            {
+                "id": 2,
+                "name": "North"
+            },
+            {
+                "id": 3,
+                "name": "South"
+            },
+            {
+                "id": 4,
+                "name": "West"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "National Football Conference",
+        "abbr": "NFC",
+        "division_list": [
+            {
+                "id": 5,
+                "name": "East"
+            },
+            {
+                "id": 6,
+                "name": "North"
+            },
+            {
+                "id": 7,
+                "name": "South"
+            },
+            {
+                "id": 8,
+                "name": "West"
+            }
+        ]
+    }
+]

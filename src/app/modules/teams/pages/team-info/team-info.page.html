@@ -1,0 +1,18 @@
+<div *ngIf="(isLoaded$ | async)">
+  <team-header
+    [name]="(team$ | async).getName()"
+    [division]="(team$ | async).getDivision()"
+    [siteUrl]="(team$ | async).getSiteUrl()"
+  >
+  </team-header>
+
+  <team-schedule></team-schedule>
+
+  <team-info
+    [owners]="(team$ | async).getOwners()"
+    [coaches]="(team$ | async).getCoaches()"
+    [staff]="(team$ | async).getStaff()"
+    [stadium]="(team$ | async).getStadium()"
+    [established]="(team$ | async).getEstablished()"
+  ></team-info>
+</div>

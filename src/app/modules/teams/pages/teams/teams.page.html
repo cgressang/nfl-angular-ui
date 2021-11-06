@@ -1,0 +1,8 @@
+<div class="row">
+  <conference-team-list
+    *ngFor="let conference of conferences$ | async"
+    [conference]="conference">
+  </conference-team-list>
+</div>
+
+<router-outlet></router-outlet>

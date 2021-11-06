@@ -1,0 +1,176 @@
+[
+    {
+        "id": 1,
+        "name": "American Football Conference",
+        "abbr": "AFC",
+        "team_list": [
+            {
+                "id": 3,
+                "name": "Baltimore Ravens",
+                "url": "https://www.baltimoreravens.com/"
+            },
+            {
+                "id": 4,
+                "name": "Buffalo Bills",
+                "url": "https://www.buffalobills.com/"
+            },
+            {
+                "id": 7,
+                "name": "Cincinnati Bengals",
+                "url": "https://www.bengals.com/"
+            },
+            {
+                "id": 8,
+                "name": "Cleveland Browns",
+                "url": "https://www.clevelandbrowns.com/"
+            },
+            {
+                "id": 10,
+                "name": "Denver Broncos",
+                "url": "https://www.denverbroncos.com/"
+            },
+            {
+                "id": 13,
+                "name": "Houston Texans",
+                "url": "https://www.houstontexans.com/"
+            },
+            {
+                "id": 14,
+                "name": "Indianapolis Colts",
+                "url": "https://www.colts.com/"
+            },
+            {
+                "id": 15,
+                "name": "Jacksonville Jaguars",
+                "url": "https://www.jaguars.com/"
+            },
+            {
+                "id": 16,
+                "name": "Kansas City Chiefs",
+                "url": "https://www.chiefs.com/"
+            },
+            {
+                "id": 17,
+                "name": "Las Vegas Raiders",
+                "url": "https://www.raiders.com/"
+            },
+            {
+                "id": 18,
+                "name": "Los Angeles Chargers",
+                "url": "https://www.chargers.com/"
+            },
+            {
+                "id": 20,
+                "name": "Miami Dolphins",
+                "url": "https://www.miamidolphins.com/"
+            },
+            {
+                "id": 22,
+                "name": "New England Patriots",
+                "url": "https://www.patriots.com/"
+            },
+            {
+                "id": 25,
+                "name": "New York Jets",
+                "url": "https://www.newyorkjets.com/"
+            },
+            {
+                "id": 27,
+                "name": "Pittsburgh Steelers",
+                "url": "https://www.steelers.com/"
+            },
+            {
+                "id": 31,
+                "name": "Tennessee Titans",
+                "url": "https://www.titansonline.com/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "National Football Conference",
+        "abbr": "NFC",
+        "team_list": [
+            {
+                "id": 1,
+                "name": "Arizona Cardinals",
+                "url": "https://www.azcardinals.com/"
+            },
+            {
+                "id": 2,
+                "name": "Atlanta Falcons",
+                "url": "https://www.atlantafalcons.com/"
+            },
+            {
+                "id": 5,
+                "name": "Carolina Panthers",
+                "url": "https://www.panthers.com/"
+            },
+            {
+                "id": 6,
+                "name": "Chicago Bears",
+                "url": "https://www.chicagobears.com/"
+            },
+            {
+                "id": 9,
+                "name": "Dallas Cowboys",
+                "url": "https://www.dallascowboys.com/"
+            },
+            {
+                "id": 11,
+                "name": "Detroit Lions",
+                "url": "https://www.detroitlions.com/"
+            },
+            {
+                "id": 12,
+                "name": "Green Bay Packers",
+                "url": "https://www.packers.com/"
+            },
+            {
+                "id": 19,
+                "name": "Los Angeles Rams",
+                "url": "https://www.therams.com/"
+            },
+            {
+                "id": 21,
+                "name": "Minnesota Vikings",
+                "url": "https://www.vikings.com/"
+            },
+            {
+                "id": 23,
+                "name": "New Orleans Saints",
+                "url": "https://www.neworleanssaints.com/"
+            },
+            {
+                "id": 24,
+                "name": "New York Giants",
+                "url": "https://www.giants.com/"
+            },
+            {
+                "id": 26,
+                "name": "Philadelphia Eagles",
+                "url": "https://www.philadelphiaeagles.com/"
+            },
+            {
+                "id": 28,
+                "name": "San Fransisco 49ers",
+                "url": "https://www.49ers.com/"
+            },
+            {
+                "id": 29,
+                "name": "Seattle Seahawks",
+                "url": "https://www.seahawks.com/"
+            },
+            {
+                "id": 30,
+                "name": "Tampa Bay Buccaneers",
+                "url": "https://www.buccaneers.com/"
+            },
+            {
+                "id": 32,
+                "name": "Washington Football Team",
+                "url": "https://www.washingtonfootball.com/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "id": 18,
+    "location": "Los Angeles",
+    "name": "Chargers",
+    "abbr": "LAC",
+    "established": 1960,
+    "url": "https://www.chargers.com/",
+    "stadium": "SoFi Stadium",
+    "division": "West",
+    "conference": "AFC",
+    "owners": [
+        {
+            "id": 21,
+            "first_name": "Dean",
+            "last_name": "Spanos"
+        }
+    ],
+    "staff": [
+        {
+            "id": 18,
+            "first_name": "Tom",
+            "last_name": "Telesco",
+            "position": "General Manager"
+        }
+    ],
+    "coaches": [
+        {
+            "id": 18,
+            "first_name": "Brandon",
+            "last_name": "Staley",
+            "position": "Head Coach"
+        }
+    ]
+}

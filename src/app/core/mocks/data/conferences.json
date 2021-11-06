@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "American Football Conference",
+        "abbr": "AFC"
+    },
+    {
+        "id": 2,
+        "name": "National Football Conference",
+        "abbr": "NFC"
+    }
+]

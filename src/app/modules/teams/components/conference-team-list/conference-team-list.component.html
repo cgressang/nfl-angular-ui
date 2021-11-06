@@ -1,0 +1,6 @@
+<div class="column">
+  <h3>{{conference.getAbbr()}} Teams</h3>
+  <team-box
+    *ngFor="let team of teams"
+    [team]="team"></team-box>
+</div>
