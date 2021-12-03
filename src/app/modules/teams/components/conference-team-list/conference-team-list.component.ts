@@ -16,7 +16,7 @@ export class ConferenceTeamListComponent {
   constructor() { }
 
   ngOnInit() {
-    this.conference.getTeams().forEach((team: any) => {
+    this.conference.getTeams().forEach((team: Team) => {
       this.teams.push(team);
     });
   }

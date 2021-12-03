@@ -1,6 +1,6 @@
 import { Component, Input, ChangeDetectionStrategy, } from '@angular/core';
 
-import { ConferenceTeam } from '@shared/models/conference-team.model';
+import { Team } from '@shared/models/team.model';
 
 @Component({
   selector: 'team-box',
@@ -9,7 +9,7 @@ import { ConferenceTeam } from '@shared/models/conference-team.model';
   styleUrls: ['./team-box.component.scss']
 })
 export class TeamBoxComponent {
-  @Input('team') team: ConferenceTeam
+  @Input('team') team: Team
   constructor() { }
 
   ngOnInit(): void {

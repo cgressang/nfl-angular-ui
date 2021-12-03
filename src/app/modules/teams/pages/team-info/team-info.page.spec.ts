@@ -8,10 +8,12 @@ import { TeamHeaderComponent } from '@modules/teams/components/team-header/team-
 import { TeamInfoComponent } from '@modules/teams/components/team-info/team-info.component';
 import { TeamScheduleComponent } from '@modules/teams/components/team-schedule/team-schedule.component';
 
-import { Team } from '@shared/models/team.model';
-import teamData from '@core/mocks/data/team.json';
+import { Conference } from '@shared/models/conference.model';
+import ConferenceTeamsData from '@core/mocks/data/conference-teams.json';
 
-const team: Team = new Team(teamData);
+const conferences: Conference[] = [];
+conferences.push(new Conference(ConferenceTeamsData[0]));
+conferences.push(new Conference(ConferenceTeamsData[1]));
 
 describe('TeamInfoPage', () => {
   let component: TeamInfoPage;
@@ -19,12 +21,19 @@ describe('TeamInfoPage', () => {
 
   let store: MockStore;
   const initialState = {
-    router: {},
+    router: {
+      state: {
+        url: "/teams/baltimore-ravens",
+        params: {
+          type: "baltimore-ravens"
+        }
+      }
+    },
     teams: {
-      team: {
-        team: team,
+      conferences: {
+        entities: conferences,
         loading: false,
-        loaded: true,
+        loaded: false,
         error: {}
       }
     }

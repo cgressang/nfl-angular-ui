@@ -1,20 +1,20 @@
-import { ConferenceTeam } from './conference-team.model';
+import { Team } from './team.model';
 
 export class Conference {
   private id: number;
   private name: string;
   private abbr: string;
-  private teams: Map<string, ConferenceTeam>;
+  private teams: Map<string, Team>;
 
   constructor(d: any) {
     this.id = d.id;
     this.name = d.name;
     this.abbr = d.abbr;
-    this.teams = new Map<string, ConferenceTeam>();
+    this.teams = new Map<string, Team>();
 
     if (typeof d.team_list !== 'undefined' && d.team_list.length > 0) {
       d.team_list.forEach((team: any) => {
-        var temp = new ConferenceTeam(team);
+        var temp = new Team(team);
         this.teams.set(temp.getSiteId(), temp);
       });
     }
@@ -32,7 +32,7 @@ export class Conference {
     return this.abbr;
   }
 
-  getTeams(): Map<string, ConferenceTeam> {
+  getTeams(): Map<string, Team> {
     return this.teams;
   }
 }

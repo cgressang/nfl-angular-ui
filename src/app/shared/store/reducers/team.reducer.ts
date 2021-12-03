@@ -7,14 +7,14 @@ import * as TeamActions from '../actions/team.action';
 
 export interface State {
   // additional entities state properties
-  team: Team
+  team: Team | null
   loading: boolean;
   loaded: boolean;
   error: any | null;
 }
 
 export const initialState: State = {
-  team: new Team({}),
+  team: null,
   loading: false,
   loaded: false,
   error: null,

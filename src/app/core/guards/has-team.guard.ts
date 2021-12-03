@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 import { Store, select } from '@ngrx/store';
 
-import { ConferenceTeam } from '@shared/models/conference-team.model';
+import { Team } from '@shared/models/team.model';
 
 import { TeamsState } from '@shared/store/reducers';
 import { ConferenceSelectors } from '@shared/store/selectors';
@@ -23,10 +23,8 @@ export class HasTeamGuard implements CanActivate {
 
   checkStore(): Observable<boolean> {
     return this.store.select(ConferenceSelectors.getConferenceTeam).pipe(
-      map((conferenceTeam: ConferenceTeam) => {
+      map((conferenceTeam: Team) => {
         if (conferenceTeam) {
-          const id = conferenceTeam.getId();
-          this.store.dispatch(TeamActions.loadTeam({ id }));
           return true;
         }
         this.router.navigate(['']);

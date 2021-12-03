@@ -6,83 +6,567 @@
         "team_list": [
             {
                 "id": 3,
-                "name": "Baltimore Ravens",
-                "url": "https://www.baltimoreravens.com/"
+                "location": "Baltimore",
+                "name": "Ravens",
+                "abbr": "BAL",
+                "established": 1996,
+                "url": "https://www.baltimoreravens.com/",
+                "stadium": "M&T Bank Stadium",
+                "division": "North",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 3,
+                        "first_name": "Steve",
+                        "last_name": "Bisciotti"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 3,
+                        "first_name": "Eric",
+                        "last_name": "DeCosta",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 3,
+                        "first_name": "John",
+                        "last_name": "Harbaugh",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 4,
-                "name": "Buffalo Bills",
-                "url": "https://www.buffalobills.com/"
+                "location": "Buffalo",
+                "name": "Bills",
+                "abbr": "BUF",
+                "established": 1960,
+                "url": "https://www.buffalobills.com/",
+                "stadium": "Highmark Stadium",
+                "division": "East",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 4,
+                        "first_name": "Kim",
+                        "last_name": "Pegula"
+                    },
+                    {
+                        "id": 5,
+                        "first_name": "Terry",
+                        "last_name": "Pegula"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 4,
+                        "first_name": "Brandon",
+                        "last_name": "Beane",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 4,
+                        "first_name": "Sean",
+                        "last_name": "McDermott",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 7,
-                "name": "Cincinnati Bengals",
-                "url": "https://www.bengals.com/"
+                "location": "Cincinnati",
+                "name": "Bengals",
+                "abbr": "CIN",
+                "established": 1968,
+                "url": "https://www.bengals.com/",
+                "stadium": "Paul Brown Stadium",
+                "division": "North",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 8,
+                        "first_name": "Mike",
+                        "last_name": "Brown"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 7,
+                        "first_name": "Duke",
+                        "last_name": "Tobin",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 7,
+                        "first_name": "Zac",
+                        "last_name": "Taylor",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 8,
-                "name": "Cleveland Browns",
-                "url": "https://www.clevelandbrowns.com/"
+                "location": "Cleveland",
+                "name": "Browns",
+                "abbr": "CLE",
+                "established": 1946,
+                "url": "https://www.clevelandbrowns.com/",
+                "stadium": "FirstEnergy Stadium",
+                "division": "North",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 9,
+                        "first_name": "Jimmy",
+                        "last_name": "Haslam"
+                    },
+                    {
+                        "id": 10,
+                        "first_name": "Dee",
+                        "last_name": "Haslam"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 8,
+                        "first_name": "Andrew",
+                        "last_name": "Berry",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 8,
+                        "first_name": "Kevin",
+                        "last_name": "Stefanski",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 10,
-                "name": "Denver Broncos",
-                "url": "https://www.denverbroncos.com/"
+                "location": "Denver",
+                "name": "Broncos",
+                "abbr": "DEN",
+                "established": 1960,
+                "url": "https://www.denverbroncos.com/",
+                "stadium": "Empower Field at Mile High",
+                "division": "West",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 12,
+                        "first_name": "Joe",
+                        "last_name": "Ellis"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 10,
+                        "first_name": "George",
+                        "last_name": "Paton",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 10,
+                        "first_name": "Vic",
+                        "last_name": "Fangio",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 13,
-                "name": "Houston Texans",
-                "url": "https://www.houstontexans.com/"
+                "location": "Houston",
+                "name": "Texans",
+                "abbr": "HOU",
+                "established": 2002,
+                "url": "https://www.houstontexans.com/",
+                "stadium": "NRG Stadium",
+                "division": "South",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 15,
+                        "first_name": "Janice",
+                        "last_name": "McNair"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 13,
+                        "first_name": "Nick",
+                        "last_name": "Caserio",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 13,
+                        "first_name": "David",
+                        "last_name": "Culley",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 14,
-                "name": "Indianapolis Colts",
-                "url": "https://www.colts.com/"
+                "location": "Indianapolis",
+                "name": "Colts",
+                "abbr": "IND",
+                "established": 1944,
+                "url": "https://www.colts.com/",
+                "stadium": "Lucas Oil Stadium",
+                "division": "South",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 16,
+                        "first_name": "Jim",
+                        "last_name": "Irsay"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 14,
+                        "first_name": "Chris",
+                        "last_name": "Ballard",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 14,
+                        "first_name": "Frank",
+                        "last_name": "Reich",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 15,
-                "name": "Jacksonville Jaguars",
-                "url": "https://www.jaguars.com/"
+                "location": "Jacksonville",
+                "name": "Jaguars",
+                "abbr": "JAX",
+                "established": 1995,
+                "url": "https://www.jaguars.com/",
+                "stadium": "TIAA Bank Field",
+                "division": "South",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 17,
+                        "first_name": "Shahid",
+                        "last_name": "Khan"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 15,
+                        "first_name": "Trent",
+                        "last_name": "Baalke",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 15,
+                        "first_name": "Urban",
+                        "last_name": "Meyer",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 16,
-                "name": "Kansas City Chiefs",
-                "url": "https://www.chiefs.com/"
+                "location": "Kansas City",
+                "name": "Chiefs",
+                "abbr": "KC",
+                "established": 1960,
+                "url": "https://www.chiefs.com/",
+                "stadium": "Arrowhead Stadium",
+                "division": "West",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 18,
+                        "first_name": "Clark",
+                        "last_name": "Hunt"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 16,
+                        "first_name": "Brett",
+                        "last_name": "Veach",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 16,
+                        "first_name": "Andy",
+                        "last_name": "Reid",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 17,
-                "name": "Las Vegas Raiders",
-                "url": "https://www.raiders.com/"
+                "location": "Las Vegas",
+                "name": "Raiders",
+                "abbr": "LV",
+                "established": 1960,
+                "url": "https://www.raiders.com/",
+                "stadium": "Allegiant Stadium",
+                "division": "West",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 19,
+                        "first_name": "Carol",
+                        "last_name": "Davis"
+                    },
+                    {
+                        "id": 20,
+                        "first_name": "Mark",
+                        "last_name": "Davis"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 17,
+                        "first_name": "Mike",
+                        "last_name": "Mayock",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 17,
+                        "first_name": "Rich",
+                        "last_name": "Bisaccia",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 18,
-                "name": "Los Angeles Chargers",
-                "url": "https://www.chargers.com/"
+                "location": "Los Angeles",
+                "name": "Chargers",
+                "abbr": "LAC",
+                "established": 1960,
+                "url": "https://www.chargers.com/",
+                "stadium": "SoFi Stadium",
+                "division": "West",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 21,
+                        "first_name": "Dean",
+                        "last_name": "Spanos"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 18,
+                        "first_name": "Tom",
+                        "last_name": "Telesco",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 18,
+                        "first_name": "Brandon",
+                        "last_name": "Staley",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 20,
-                "name": "Miami Dolphins",
-                "url": "https://www.miamidolphins.com/"
+                "location": "Miami",
+                "name": "Dolphins",
+                "abbr": "MIA",
+                "established": 1966,
+                "url": "https://www.miamidolphins.com/",
+                "stadium": "Hard Rock Stadium",
+                "division": "East",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 23,
+                        "first_name": "Stephen",
+                        "last_name": "Ross"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 20,
+                        "first_name": "Chris",
+                        "last_name": "Grier",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 20,
+                        "first_name": "Brian",
+                        "last_name": "Flores",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 22,
-                "name": "New England Patriots",
-                "url": "https://www.patriots.com/"
+                "location": "New England",
+                "name": "Patriots",
+                "abbr": "NE",
+                "established": 1960,
+                "url": "https://www.patriots.com/",
+                "stadium": "Gillette Stadium",
+                "division": "East",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 25,
+                        "first_name": "Robert",
+                        "last_name": "Kraft"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 22,
+                        "first_name": "Bill",
+                        "last_name": "Belichick",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 22,
+                        "first_name": "Bill",
+                        "last_name": "Belichick",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 25,
-                "name": "New York Jets",
-                "url": "https://www.newyorkjets.com/"
+                "location": "New York",
+                "name": "Jets",
+                "abbr": "NYJ",
+                "established": 1960,
+                "url": "https://www.newyorkjets.com/",
+                "stadium": "MetLife Stadium",
+                "division": "East",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 29,
+                        "first_name": "Robert",
+                        "last_name": "Wood Johnson IV"
+                    },
+                    {
+                        "id": 30,
+                        "first_name": "Christopher",
+                        "last_name": "Wold Johnson"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 25,
+                        "first_name": "Joe",
+                        "last_name": "Douglas",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 25,
+                        "first_name": "Robert",
+                        "last_name": "Saleh",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 27,
-                "name": "Pittsburgh Steelers",
-                "url": "https://www.steelers.com/"
+                "location": "Pittsburgh",
+                "name": "Steelers",
+                "abbr": "PIT",
+                "established": 1933,
+                "url": "https://www.steelers.com/",
+                "stadium": "Heinz Field",
+                "division": "North",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 32,
+                        "first_name": "Art",
+                        "last_name": "Rooney II"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 27,
+                        "first_name": "Kevin",
+                        "last_name": "Colbert",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 27,
+                        "first_name": "Mike",
+                        "last_name": "Tomlin",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 31,
-                "name": "Tennessee Titans",
-                "url": "https://www.titansonline.com/"
+                "location": "Tennessee",
+                "name": "Titans",
+                "abbr": "TEN",
+                "established": 1960,
+                "url": "https://www.titansonline.com/",
+                "stadium": "Nissan Stadium",
+                "division": "South",
+                "conference": "AFC",
+                "owners": [
+                    {
+                        "id": 37,
+                        "first_name": "Amy",
+                        "last_name": "Adams Strunk"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 31,
+                        "first_name": "Jon",
+                        "last_name": "Robinson",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 31,
+                        "first_name": "Mike",
+                        "last_name": "Vrabel",
+                        "position": "Head Coach"
+                    }
+                ]
             }
         ]
     },
@@ -93,83 +577,557 @@
         "team_list": [
             {
                 "id": 1,
-                "name": "Arizona Cardinals",
-                "url": "https://www.azcardinals.com/"
+                "location": "Arizona",
+                "name": "Cardinals",
+                "abbr": "ARI",
+                "established": 1920,
+                "url": "https://www.azcardinals.com/",
+                "stadium": "State Farm Stadium",
+                "division": "West",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 1,
+                        "first_name": "Bill",
+                        "last_name": "Bidwell"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 1,
+                        "first_name": "Steve",
+                        "last_name": "Keim",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 1,
+                        "first_name": "Kliff",
+                        "last_name": "Kingsbury",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 2,
-                "name": "Atlanta Falcons",
-                "url": "https://www.atlantafalcons.com/"
+                "location": "Atlanta",
+                "name": "Falcons",
+                "abbr": "ATL",
+                "established": 1966,
+                "url": "https://www.atlantafalcons.com/",
+                "stadium": "Mercedes-Benz Stadium",
+                "division": "South",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 2,
+                        "first_name": "Auther",
+                        "last_name": "Blank"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 2,
+                        "first_name": "Terry",
+                        "last_name": "Fontenot",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 2,
+                        "first_name": "Arthur",
+                        "last_name": "Smith",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 5,
-                "name": "Carolina Panthers",
-                "url": "https://www.panthers.com/"
+                "location": "Carolina",
+                "name": "Panthers",
+                "abbr": "CAR",
+                "established": 1995,
+                "url": "https://www.panthers.com/",
+                "stadium": "Bank of America Stadium",
+                "division": "South",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 6,
+                        "first_name": "David",
+                        "last_name": "Tepper"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 5,
+                        "first_name": "Scott",
+                        "last_name": "Fitterer",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 5,
+                        "first_name": "Matt",
+                        "last_name": "Rhule",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 6,
-                "name": "Chicago Bears",
-                "url": "https://www.chicagobears.com/"
+                "location": "Chicago",
+                "name": "Bears",
+                "abbr": "CHI",
+                "established": 1920,
+                "url": "https://www.chicagobears.com/",
+                "stadium": "Soldier Field",
+                "division": "North",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 7,
+                        "first_name": "Virginia",
+                        "last_name": "Halas McCaskey"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 6,
+                        "first_name": "Ryan",
+                        "last_name": "Pace",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 6,
+                        "first_name": "Matt",
+                        "last_name": "Nagy",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 9,
-                "name": "Dallas Cowboys",
-                "url": "https://www.dallascowboys.com/"
+                "location": "Dallas",
+                "name": "Cowboys",
+                "abbr": "DAL",
+                "established": 1960,
+                "url": "https://www.dallascowboys.com/",
+                "stadium": "AT&T Stadium",
+                "division": "East",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 11,
+                        "first_name": "Jerry",
+                        "last_name": "Jones"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 9,
+                        "first_name": "Jerry",
+                        "last_name": "Jones",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 9,
+                        "first_name": "Mike",
+                        "last_name": "McCarthy",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 11,
-                "name": "Detroit Lions",
-                "url": "https://www.detroitlions.com/"
+                "location": "Detroit",
+                "name": "Lions",
+                "abbr": "DET",
+                "established": 1930,
+                "url": "https://www.detroitlions.com/",
+                "stadium": "Ford Field",
+                "division": "North",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 13,
+                        "first_name": "Sheila",
+                        "last_name": "Ford Hamp"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 11,
+                        "first_name": "Brad",
+                        "last_name": "Holmes",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 11,
+                        "first_name": "Dan",
+                        "last_name": "Campbell",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 12,
-                "name": "Green Bay Packers",
-                "url": "https://www.packers.com/"
+                "location": "Green Bay",
+                "name": "Packers",
+                "abbr": "GB",
+                "established": 1921,
+                "url": "https://www.packers.com/",
+                "stadium": "Lambeau Field",
+                "division": "North",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 14,
+                        "first_name": "Green Bay",
+                        "last_name": "Packers, Inc"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 12,
+                        "first_name": "Brian",
+                        "last_name": "Gutekunst",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 12,
+                        "first_name": "Matt",
+                        "last_name": "LaFleur",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 19,
-                "name": "Los Angeles Rams",
-                "url": "https://www.therams.com/"
+                "location": "Los Angeles",
+                "name": "Rams",
+                "abbr": "LAR",
+                "established": 1937,
+                "url": "https://www.therams.com/",
+                "stadium": "SoFi Stadium",
+                "division": "West",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 22,
+                        "first_name": "Stan",
+                        "last_name": "Kroenke"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 19,
+                        "first_name": "Les",
+                        "last_name": "Snead",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 19,
+                        "first_name": "Sean",
+                        "last_name": "McVay",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 21,
-                "name": "Minnesota Vikings",
-                "url": "https://www.vikings.com/"
+                "location": "Minnesota",
+                "name": "Vikings",
+                "abbr": "MIN",
+                "established": 1961,
+                "url": "https://www.vikings.com/",
+                "stadium": "U.S. Bank Stadium",
+                "division": "North",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 24,
+                        "first_name": "Zygi",
+                        "last_name": "Wilf"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 21,
+                        "first_name": "Rick",
+                        "last_name": "Spielman",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 21,
+                        "first_name": "Mike",
+                        "last_name": "Zimmer",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 23,
-                "name": "New Orleans Saints",
-                "url": "https://www.neworleanssaints.com/"
+                "location": "New Orleans",
+                "name": "Saints",
+                "abbr": "NO",
+                "established": 1967,
+                "url": "https://www.neworleanssaints.com/",
+                "stadium": "Caesars Superdome",
+                "division": "South",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 26,
+                        "first_name": "Gayle",
+                        "last_name": "Benson"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 23,
+                        "first_name": "Mickey",
+                        "last_name": "Loomis",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 23,
+                        "first_name": "Sean",
+                        "last_name": "Payton",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 24,
-                "name": "New York Giants",
-                "url": "https://www.giants.com/"
+                "location": "New York",
+                "name": "Giants",
+                "abbr": "NYG",
+                "established": 1925,
+                "url": "https://www.giants.com/",
+                "stadium": "MetLife Stadium",
+                "division": "East",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 27,
+                        "first_name": "John",
+                        "last_name": "Mara"
+                    },
+                    {
+                        "id": 28,
+                        "first_name": "Steve",
+                        "last_name": "Tisch"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 24,
+                        "first_name": "Dave",
+                        "last_name": "Gettleman",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 24,
+                        "first_name": "Joe",
+                        "last_name": "Judge",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 26,
-                "name": "Philadelphia Eagles",
-                "url": "https://www.philadelphiaeagles.com/"
+                "location": "Philadelphia",
+                "name": "Eagles",
+                "abbr": "PHI",
+                "established": 1933,
+                "url": "https://www.philadelphiaeagles.com/",
+                "stadium": "Lincoln Financial Field",
+                "division": "East",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 31,
+                        "first_name": "Jeffery",
+                        "last_name": "Lurie"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 26,
+                        "first_name": "Howie",
+                        "last_name": "Roseman",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 26,
+                        "first_name": "Nick",
+                        "last_name": "Sirianni",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 28,
-                "name": "San Fransisco 49ers",
-                "url": "https://www.49ers.com/"
+                "location": "San Fransisco",
+                "name": "49ers",
+                "abbr": "SF",
+                "established": 1946,
+                "url": "https://www.49ers.com/",
+                "stadium": "Levi's Stadium",
+                "division": "West",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 33,
+                        "first_name": "Denise",
+                        "last_name": "DeBartolo York"
+                    },
+                    {
+                        "id": 34,
+                        "first_name": "Jed",
+                        "last_name": "York"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 28,
+                        "first_name": "John",
+                        "last_name": "Lynch",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 28,
+                        "first_name": "Kyle",
+                        "last_name": "Shanahan",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 29,
-                "name": "Seattle Seahawks",
-                "url": "https://www.seahawks.com/"
+                "location": "Seattle",
+                "name": "Seahawks",
+                "abbr": "SEA",
+                "established": 1976,
+                "url": "https://www.seahawks.com/",
+                "stadium": "Lumen Field",
+                "division": "West",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 35,
+                        "first_name": "Jody",
+                        "last_name": "Allen"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 29,
+                        "first_name": "John",
+                        "last_name": "Schneider",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 29,
+                        "first_name": "Pete",
+                        "last_name": "Carroll",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 30,
-                "name": "Tampa Bay Buccaneers",
-                "url": "https://www.buccaneers.com/"
+                "location": "Tampa Bay",
+                "name": "Buccaneers",
+                "abbr": "TB",
+                "established": 1976,
+                "url": "https://www.buccaneers.com/",
+                "stadium": "Raymond James Stadium",
+                "division": "South",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 36,
+                        "first_name": "Bryan",
+                        "last_name": "Glazer"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 30,
+                        "first_name": "Jason",
+                        "last_name": "Licht",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 30,
+                        "first_name": "Bruce",
+                        "last_name": "Arians",
+                        "position": "Head Coach"
+                    }
+                ]
             },
             {
                 "id": 32,
-                "name": "Washington Football Team",
-                "url": "https://www.washingtonfootball.com/"
+                "location": "Washington",
+                "name": "Football Team",
+                "abbr": "WAS",
+                "established": 1932,
+                "url": "https://www.washingtonfootball.com/",
+                "stadium": "FedExField",
+                "division": "East",
+                "conference": "NFC",
+                "owners": [
+                    {
+                        "id": 39,
+                        "first_name": "Dan",
+                        "last_name": "Snyder"
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 32,
+                        "first_name": "Martin",
+                        "last_name": "Mayhew",
+                        "position": "General Manager"
+                    }
+                ],
+                "coaches": [
+                    {
+                        "id": 32,
+                        "first_name": "Ron",
+                        "last_name": "Rivera",
+                        "position": "Head Coach"
+                    }
+                ]
             }
         ]
     }
